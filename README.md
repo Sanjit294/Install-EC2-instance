@@ -1,5 +1,6 @@
-1. Explore & Understand AWS
-Algorithm:
+# 1. Explore & Understand AWS
+
+## Algorithm:
 
 Sign up for AWS
 
@@ -19,9 +20,11 @@ Install AWS CLI using pip install awscli or download from AWS.
 Configure AWS CLI using aws configure.
 Practice with AWS Documentation
 
+![Screenshot 2025-03-19 160343](https://github.com/user-attachments/assets/edae0a14-ef01-4e00-94ef-c51ed9033e5d)
+
 Visit the AWS Documentation for hands-on learning.
 2. Create & Manage Amazon EC2 Instances
-Algorithm:
+## Algorithm:
 
 Log in to AWS Console
 
@@ -50,14 +53,17 @@ Click Launch and wait for initialization.
 Connect to the Instance
 
 Open Terminal/Command Prompt.
+
+![Screenshot 2025-03-19 160402](https://github.com/user-attachments/assets/64db793c-7160-40b1-bd6f-2f8cd54487a8)
+
 Run ssh -i your-key.pem ec2-user@your-instance-ip.
-Result:
+## Result:
 
 Successfully launched and connected to an EC2 instance.
 3. Install OpenStack
 (OpenStack is an open-source cloud platform for managing virtualized resources.)
 
-Algorithm:
+## Algorithm:
 
 Prepare Ubuntu Server (20.04/22.04)
 
@@ -98,6 +104,11 @@ Launch OpenStack Dashboard
 
 Access Horizon Dashboard using http://<your-server-ip>/dashboard.
 Log in with admin credentials.
-Result:
+
+## Result:
+
+![Screenshot 2025-03-19 160433](https://github.com/user-attachments/assets/c74b31e6-e344-402b-90b0-c3861f48ad0c)
+
+![Screenshot 2025-03-19 160451](https://github.com/user-attachments/assets/c26a835a-8110-43a2-af78-e7843306a23f)
 
 Successfully installed OpenStack and accessed the Horizon Dashboard.
